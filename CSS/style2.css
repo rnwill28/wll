@@ -1,0 +1,50 @@
+body{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+	border: 15px inset #578af7;
+	padding: 50px;
+	text-align:center;
+	background-color:powderblue;
+    }
+input {
+    	color:blue;
+	margin:5px;
+    }
+.css-input {
+     
+	padding: 3px 7px 3px 7px;
+	font-size: 16px;
+     
+	border-width: 2px;
+     
+	border-color: #069bff;
+     
+	background-color: #93c9e7;
+     
+	color: #000000;
+     
+	border-style: inset;
+     
+	border-radius: 50px;
+     
+	box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+     
+	text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+	    
+}
+ 
+.css-input:focus {
+     
+	outline:none;
+	    
+}
+.input{
+	font-size: 16px;
+	font-style: bold;
+         
+	color: #000000;
+     
+	text-shadow: 0px 0px 3px rgba(66,66,66,.75);
+	}

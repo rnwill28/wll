@@ -1,0 +1,28 @@
+body{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+	border: 15px inset #578af7;
+	padding: 50px;
+	text-align:center;
+	background-color:powderblue;
+    }
+input{
+	margin:3px;
+     }
+ul{
+	text-align:left;
+        list-style-position: inside;
+  }
+ol{
+	text-align:left;
+	list-style-position: inside;
+  }
+
+.li1{
+     padding-left: 30%;
+    }
+.li2{
+     padding-left: 5%;
+    }
