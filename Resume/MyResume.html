@@ -77,7 +77,18 @@
      <form action="https://github.com/rnwill28" >
          <button type="submit" class="myButton">Github</button>
     </form><br>
+	<input type="button" class="myButton" value="Activity" onclick="activity()"/><br><hr>
+	<input type="button" class="myButton" value="Logout" onclick="logOut()"/>
 
   </body>
 
 </html>
+
+<script type="text/javascript" src="../loginScript.js"></script>
+
+
+<script type = "text/javascript" >
+   function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
+</script>

@@ -2,7 +2,7 @@
 <html>
 <head>
  <link rel="stylesheet" type="text/css" href="CSS/style2.css">
- <title>Prelim Exam</title>
+ <title>Login Page</title>
 </head>
 <h1>Pusa ni Yorme</h1>
 
@@ -12,22 +12,20 @@
 
   <form class="input">
   Username:
-     <input type="text" name="Username" placeholder="Username" class="css-input"><br>
+     <input type="text" name="Username" placeholder="Username" class="css-input" id="userName" /><br>
   Password :
-     <input type="password" name="Password" placeholder="Password" class="css-input">
+     <input type="password" name="Password" placeholder="Password" class="css-input" id="password"/>
   </form>
-     <input type="button" class="button" value="Login" >
+     <input type="button" class="button" id="button" value="Login" onclick="valUser()"/>
 
   </body>
 
 </html>
-<script type="text/javascript">
-var x = 10;
-var y = 5;
-var total = x - y;
 
-if(total == 15){
-	alert("variable total is equal to" + total);
-}else
-	alert("total is not equal to 15");
+<script type="text/javascript" src="loginScript.js"></script>
+
+<script type = "text/javascript" >
+   function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
 </script>
