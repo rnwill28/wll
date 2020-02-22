@@ -13,23 +13,42 @@ var psWrd = document.getElementById("password").value;
 	}
 }
 
+function activity(){
+	window.location.href = "../Activity.html";
+}
 function logOut(){
 	window.location.href = "../Test2.html";
 }
 
 function Add(){
-	var num1 = document.getElementById("num1").value;
-	var num2 = document.getElementById("num2").value;
+	var num1 = parseInt(document.getElementById("num1").value);
+	var num2 = parseInt(document.getElementById("num2").value);
+	var result = num1 + num2;
+
+	document.getElementById("result").value = result;   
 }
 
 function Subtract(){
+	var num1 = parseInt(document.getElementById("num1").value);
+	var num2 = parseInt(document.getElementById("num2").value);
+	var result = num1 - num2;
 
+	document.getElementById("result").value = result;   
+	 
 }
 
 function Multiply(){
+	var num1 = parseInt(document.getElementById("num1").value);
+	var num2 = parseInt(document.getElementById("num2").value);
+	var result = num1 * num2;
 
+	document.getElementById("result").value = result;   
 }
 
 function Divide(){
+	var num1 = parseInt(document.getElementById("num1").value);
+	var num2 = parseInt(document.getElementById("num2").value);
+	var result = num1 / num2;
 
-}
+	document.getElementById("result").value = result;   
+}	
